@@ -164,7 +164,7 @@ footer{
 
 /* segunda pag*/
 
-.area{
+.area2{
   display: flex;
   align-items: right;
   color: white;
@@ -172,20 +172,46 @@ footer{
   justify-content:right;
   margin: 3 vh;
   width: 100%;
+  padding: 3vh;
 }
 
-.area img{
+.area2 img{
   width: 35vh;
   height: 25vh;
   object-fit: cover;
   border: solid, none;
   border-radius: 10px;
+}
+
+
+
+.flex-container{
+  display: flex;
+  color:black;
+  font-size: 19px;
+  display: inline-block; 
 
 }
 
+.flex-container2{
+  display: flex;
+  color:black;
+  font-size: 22px;
+  display: inline-block; 
+
+}
+.flex-container3{
+  display: flex;
+  color:black;
+  font-size: 16px;
+  display: inline-block; 
+
+}
+
+
 #qd{
   width: 35vh;
-  height: 30vh;
+  height: 63vh;
   margin: 2vh;
   border: solid, none;
   border-radius: 10px;
