@@ -1,0 +1,195 @@
+
+*{
+	margin:0;
+	padding:0;
+ 
+}	
+
+
+
+.fundo{
+  background-color: #dfe1e3;
+
+}
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	height:15vh;
+	background-color:#9c9c9c;
+	justify-content: space-between;
+}	
+
+.logo{
+	
+	width:20%;
+	height:10vh;
+	margin-left: 4px;
+	align-items: left;
+}
+
+.logo img{
+	margin-top: 8px;
+	height:100%;
+	width:100%;
+}
+
+.navegacao{
+	width:30%;
+	height:15vh;
+	margin-left: 4vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.icone{
+	margin:20px;
+	margin-left:12vh;
+	margin-top: 3vh;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+
+.icone img{
+	width: 5vh; 
+	height: 5vh;
+}
+
+.menu{
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin: 5px;
+	margin-bottom: 12px;
+	color:white;
+
+
+}
+.menu span{
+
+	margin-left:0.5vh;
+	margin-right:0.5vh;
+}
+.menu span:hover{
+ 	color:#7393b4;
+ 	cursor: pointer;
+ }
+
+.banner{
+  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgBanner{
+  margin-top:15px;
+	width: 30vw;	
+}
+
+.conteudo{
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.descricao{
+	width:80%;
+	height:auto;
+	margin-top:5vh;
+	text-align: center;
+	font-size:30px;
+}
+
+.areas{
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#quadro{
+  width: 35vh;
+  height: 30vh;
+  margin: 2vh;
+  border: solid, none;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(87, 86, 86);
+  background-color: #79634c;
+}
+.areas img{
+  width: 35vh;
+  height: 25vh;
+  object-fit: cover;
+  border: solid, none;
+  border-radius: 10px;
+
+}
+
+footer{
+  width: 100%;
+  height: 20vh;
+  background-color: #3c3c44;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-end{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.footer-end p{
+  margin-right: 5%;
+
+  color: white;
+}
+
+.IFMS{
+	justify-content: flexd-end;
+}
+
+/* segunda pag*/
+
+.area{
+  display: flex;
+  align-items: right;
+  color: white;
+  flex-direction: column;
+  justify-content:right;
+  margin: 3 vh;
+  width: 100%;
+}
+
+.area img{
+  width: 35vh;
+  height: 25vh;
+  object-fit: cover;
+  border: solid, none;
+  border-radius: 10px;
+
+}
+
+#qd{
+  width: 35vh;
+  height: 30vh;
+  margin: 2vh;
+  border: solid, none;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(87, 86, 86);
+  background-color: #79634c;
+}
